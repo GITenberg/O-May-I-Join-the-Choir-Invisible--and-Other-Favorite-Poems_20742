@@ -39,6 +39,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/90
     wikipedia: http://en.wikipedia.org/wiki/George_Eliot
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/20742#O-May-I-Join-the-Choir-Invisible--and-Other-Favorite-Poems
 gutenberg_issued: '2007-03-04'
 gutenberg_type: Text
 identifiers:
