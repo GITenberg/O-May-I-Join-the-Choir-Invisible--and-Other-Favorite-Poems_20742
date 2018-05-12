@@ -1,0 +1,58 @@
+_repo: O-May-I-Join-the-Choir-Invisible--and-Other-Favorite-Poems_20742
+_version: 0.1.0
+covers:
+- cover_type: archival
+  image_path: 20742-h/images/cover.jpg
+creator:
+  authors:
+  - agent_name: Browning, Robert
+    birthdate: 1812
+    deathdate: 1889
+    gutenberg_agent_id: '146'
+    url: http://www.gutenberg.org/2009/agents/146
+    wikipedia: http://en.wikipedia.org/wiki/Robert_Browning
+  - agent_name: Shelley, Percy Bysshe
+    alias: Shelley, P. B. (Percy Bysshe)
+    birthdate: 1792
+    deathdate: 1822
+    gutenberg_agent_id: '1529'
+    url: http://www.gutenberg.org/2009/agents/1529
+    wikipedia: http://en.wikipedia.org/wiki/Percy_Bysshe_Shelley
+  - agent_name: Browning, Elizabeth Barrett
+    alias: Barrett-Browning, Elizabeth
+    birthdate: 1806
+    deathdate: 1861
+    gutenberg_agent_id: '781'
+    url: http://www.gutenberg.org/2009/agents/781
+    wikipedia: http://en.wikipedia.org/wiki/Elizabeth_Barrett_Browning
+  - agent_name: Eliot, George
+    aliases:
+    - Evans, Mary Anne
+    - Lewes, M. E. (Marian Evans)
+    - Cross, Marian Evans
+    - Evans, Marian
+    - Lewes, Marian Evans
+    - Cross, Mary Ann
+    birthdate: 1819
+    deathdate: 1880
+    gutenberg_agent_id: '90'
+    url: http://www.gutenberg.org/2009/agents/90
+    wikipedia: http://en.wikipedia.org/wiki/George_Eliot
+description: ''
+gutenberg_issued: '2007-03-04'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '20742'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'English poetry -- 19th century'
+- !lcc 'PR'
+tableOfContents: O may I join the choir invisible! / George Eliot -- How they brought
+  the good news from Ghent to Aix / Robert Browning -- Mother and poet / Elizabeth
+  Barrett Browning -- Nature's lady / George Eliot -- To a skylark / Percy Bysshe
+  Shelley.
+title: O May I Join the Choir Invisible! and Other Favorite Poems
+url: http://www.gutenberg.org/ebooks/20742
