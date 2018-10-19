@@ -2,250 +2,266 @@
 <rdf:RDF xml:base="http://www.gutenberg.org/"
   xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
 >
   <pgterms:ebook rdf:about="ebooks/20742">
     <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/90">
-        <pgterms:alias>Evans, Marian</pgterms:alias>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1819</pgterms:birthdate>
-        <pgterms:alias>Lewes, Marian Evans</pgterms:alias>
-        <pgterms:alias>Evans, Mary Anne</pgterms:alias>
-        <pgterms:alias>Cross, Mary Ann</pgterms:alias>
-        <pgterms:name>Eliot, George</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1880</pgterms:deathdate>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/George_Eliot"/>
-        <pgterms:alias>Lewes, M. E. (Marian Evans)</pgterms:alias>
-        <pgterms:alias>Cross, Marian Evans</pgterms:alias>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N21cdc1e9ce454ae8aa47c4cd6337bd28">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Na672d62f393d45eca63d8ff724d0a972">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>PR</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/146">
         <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1812</pgterms:birthdate>
+        <pgterms:name>Browning, Robert</pgterms:name>
         <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1889</pgterms:deathdate>
         <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Robert_Browning"/>
-        <pgterms:name>Browning, Robert</pgterms:name>
       </pgterms:agent>
     </dcterms:creator>
     <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/1529">
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1792</pgterms:birthdate>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Percy_Bysshe_Shelley"/>
-        <pgterms:alias>Shelley, P. B. (Percy Bysshe)</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1822</pgterms:deathdate>
-        <pgterms:name>Shelley, Percy Bysshe</pgterms:name>
+      <pgterms:agent rdf:about="2009/agents/90">
+        <pgterms:name>Eliot, George</pgterms:name>
+        <pgterms:alias>Lewes, M. E. (Marian Evans)</pgterms:alias>
+        <pgterms:alias>Cross, Mary Ann</pgterms:alias>
+        <pgterms:alias>Lewes, Marian Evans</pgterms:alias>
+        <pgterms:alias>Evans, Marian</pgterms:alias>
+        <pgterms:alias>Evans, Mary Anne</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/George_Eliot"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1819</pgterms:birthdate>
+        <pgterms:alias>Cross, Marian Evans</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1880</pgterms:deathdate>
       </pgterms:agent>
     </dcterms:creator>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20742.kindle.images">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T11:42:45.940612</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">372588</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndde56c6c90ad4c489cc46d1e4ab37301">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:title>O May I Join the Choir Invisible! and Other Favorite Poems</dcterms:title>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</pgterms:downloads>
-    <dcterms:tableOfContents>O may I join the choir invisible! / George Eliot -- How they brought the good news from Ghent to Aix / Robert Browning -- Mother and poet / Elizabeth Barrett Browning -- Nature's lady / George Eliot -- To a skylark / Percy Bysshe Shelley.</dcterms:tableOfContents>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/20742/20742.txt">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nde3c81a62ea64931b57bd33626b4a141">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-04T13:09:16</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35033</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/20742/20742.zip">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14059</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-04T13:09:16</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4af4760411e046349c400421cc0dee0b">
+          <rdf:Description rdf:nodeID="Ne1cdac09a71c4a18a394cd69eb6bcfca">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N595b00a978144f9e96558f471d3894d6">
+          <rdf:Description rdf:nodeID="Ne897a29b56f248c988da7054f19e5bad">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20742.qioo">
-        <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T01:34:40.902007</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75968</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N8454ec0f57374707b5dc9d126dbb6738">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20742.epub.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T11:42:44.759783</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">366241</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6b86876d33bc459a9bd4d0e4688a466a">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14059</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-04T13:09:16</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N64524e0f423b4ef68a1c66e7bd3fce78">
+      <rdf:Description rdf:nodeID="Ne3a8378ee5b9453a971e464d1ea3fa1a">
         <rdf:value>English poetry -- 19th century</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20742.plucker">
-        <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20292</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T01:34:41.729183</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N691b0625691c4d0fb0bd6f6e2670f8f6">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
+    <dcterms:tableOfContents>O may I join the choir invisible! / George Eliot -- How they brought the good news from Ghent to Aix / Robert Browning -- Mother and poet / Elizabeth Barrett Browning -- Nature's lady / George Eliot -- To a skylark / Percy Bysshe Shelley.</dcterms:tableOfContents>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/781">
-        <pgterms:name>Browning, Elizabeth Barrett</pgterms:name>
-        <pgterms:alias>Barrett-Browning, Elizabeth</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Elizabeth_Barrett_Browning"/>
         <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1806</pgterms:birthdate>
         <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1861</pgterms:deathdate>
+        <pgterms:name>Browning, Elizabeth Barrett</pgterms:name>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Elizabeth_Barrett_Browning"/>
+        <pgterms:alias>Barrett-Browning, Elizabeth</pgterms:alias>
       </pgterms:agent>
     </dcterms:creator>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20742.epub.noimages">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/20742/20742.txt">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35033</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34271</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T11:42:43.470063</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-04T13:09:16</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N0673f353f7354feead6db0fa39ea34ae">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          <rdf:Description rdf:nodeID="Nc00b13104b234254a6634f5463b96c50">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/20742/20742-h.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/20742/20742-h/20742-h.htm">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-04T13:05:41</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43150</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc1a817cd1bc1452c9c1d3dd80378f869">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb6c3de26a9c24872a7d0ec81641626ce">
+          <rdf:Description rdf:nodeID="N05b444cbcadd40d98d46930b575a5f3a">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">454698</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-04T13:09:16</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N8b9f49ae473f494e9acb8c9e4c071094">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PR</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20742.rdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15471</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:15:49.204561</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc3006654d8244e8e894cae8826914f8f">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-04</dcterms:issued>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N9090ad5bbeb94c66a1704a3ed17bbc55">
+      <rdf:Description rdf:nodeID="N99723ed1d73142b280476885a09c5fe2">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20742.txt.utf-8">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/20742/20742-h.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">454698</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N102e6878e41f4f15a09474045569e625">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="N2de46250308c4a3dafe5b063630347a9">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35033</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T11:42:42.887644</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Neeff2b113ea0420bb159039958a3c66b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-04T13:09:16</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20742.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240653</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9f139266515140749c32fd66d65606d3">
+          <rdf:Description rdf:nodeID="N8502c413ac4146de8074829bba31eb6d">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T11:42:45.319221</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T03:50:00.932027</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51160</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-04</dcterms:issued>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/20742/20742-h/20742-h.htm">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20742.epub.images">
         <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43150</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N86b51fa1b58e4935a04323e814075f19">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          <rdf:Description rdf:nodeID="N548d9671f2a0458d99f68875255b0544">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">462004</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T03:49:59.776067</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N345bff476498459086cdcf5e3d1ed242">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:title>O May I Join the Choir Invisible! and Other Favorite Poems</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20742.kindle.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T03:50:00.481034</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N59d0f8c71e1b4a94a5877b805e6716a3">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">987170</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/20742/pg20742.cover.medium.jpg">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2e19e2bd34b440af9d91f438dc6f8f78">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T03:50:00.984026</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19590</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20742.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T03:49:59.890122</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9f744b2c02664700983f4207c5eb421f">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-04T13:05:41</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87631</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20742.txt.utf-8">
+        <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T03:49:59.583064</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3801115533754dc791e7daf101654688">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35034</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</pgterms:downloads>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/20742/pg20742.cover.small.jpg">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T03:50:00.959068</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/20742"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Naff9edb6afdf41148f7d380024947e45">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2682</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/1529">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1822</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Percy_Bysshe_Shelley"/>
+        <pgterms:alias>Shelley, P. B. (Percy Bysshe)</pgterms:alias>
+        <pgterms:name>Shelley, Percy Bysshe</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1792</pgterms:birthdate>
+      </pgterms:agent>
+    </dcterms:creator>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/George_Eliot">
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Percy_Bysshe_Shelley">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Robert_Browning">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Elizabeth_Barrett_Browning">
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/George_Eliot">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Percy_Bysshe_Shelley">
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Elizabeth_Barrett_Browning">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
 </rdf:RDF>
